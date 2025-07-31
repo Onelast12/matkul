@@ -50,3 +50,12 @@ li {
 ul {
   font-style: italic;
 }
+
+/* jika melakukan perubahna git add .
+git commit -m "ft"
+git push
+-- lalu
+npm run build
+npm run deploy */
+
+/* Karena GitHub Pages menampilkan hasil build statis, bukan src/ langsung. Jadi setiap kali kamu ubah kode React, kamu harus build ulang untuk menghasilkan versi baru di dist/. */
